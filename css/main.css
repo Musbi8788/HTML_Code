@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: 2rem 2rem 3rem 3rem;
+    background-color: hsla(0, 0%, 68%, 0.484);
+    border-radius: 30px;
+    padding: 1rem;
+    width: 50%;
+}
+
+h1 {
+    color: hsl(18, 100%, 42%);
+    margin-left: 40px;
+}
+
+nav {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    text-align: center;
+    margin-left: 8rem;
+    
+    
+}
+
+ul {
+    list-style: none;
+    
+   
+}
+a {
+    text-decoration: none;
+    cursor:pointer;
+    color: hsl(18, 97%, 23%);
+}
+
+ul li ,
+
+a:visited{
+    color: hsla(18, 100%, 42%, 0.484);
+
+}
+a:hover, a:focus{
+    color: hsla(20, 100%, 42%, 0.891);
+}
+
+a:active {
+    color: red;
+}
+
+main {
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: 3em;
+}
+
+h2 , h3 {
+    text-transform: capitalize;
+}
+
+table {
+   /*  background-color: lightblue; */
+    border-radius: 2rem;
+    width: 60%;
+    height: 80%;
+    /* padding: 1rem; */
+    text-align: center;
+}
+caption {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+}
+thead{
+    background-color: rgb(255, 98, 0);
+    color: whitesmoke;
+}
+th, td,tr {
+    border: 2px solid ;
+}
+
+.left-header {
+    background-color: rgb(240, 109, 27);
+    color: whitesmoke;
+}
+
+p {
+    color: #333333ab;
+}
+
+figcaption , figure {
+    color: rgb(194, 76, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+address{
+    font-size: 20px;
+    color: rgb(4, 87, 135);
+}
+
+form ,label,input,button {
+    font-size: inherit;
+}
+
+#coffe{
+    font-size: inherit;
+}
